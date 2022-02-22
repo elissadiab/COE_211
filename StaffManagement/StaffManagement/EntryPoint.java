@@ -1,9 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 public class EntryPoint{
-	private static int A;
-	private static double S;
-
 	public static void main(String[] args){
 		String firstName,lastName;
 		int age;
