@@ -15,6 +15,7 @@ public class Calculator {
         Scanner scanCalc = new Scanner(System.in);
         System.out.println("Input the first number: ");
         num1=scanCalc.nextInt();
+        scanCalc.nextLine();
         System.out.println("Input the operator: ");
         operator=scanCalc.nextLine();
         System.out.println("Input the second number: ");
@@ -39,6 +40,7 @@ public class Calculator {
             case "-":
                  System.out.println(num1+operator+num2+"= "+ subtract(num1,num2));
                  break;
+
         }
     }
 
@@ -75,7 +77,7 @@ public class Calculator {
         return division+"";
 
     }
-
+    
 	public void Calculator() {
 	}
 }

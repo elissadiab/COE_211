@@ -10,16 +10,19 @@ public class Employee {
     public Employee() {
         // Get user input
         Scanner scan = new Scanner(System.in);
-        
-
-       
-        /**
-         * Continue code here to ask for the first name, last name, age, and salary, IN THAT ORDER
-         */
+        System.out.println("Enter your first name: ");
+        firstName = scan.nextLine();
+        System.out.println("Enter your last name: ");
+        lastName = scan.nextLine();
+        System.out.print("Enter your age: ");
+        age = scan.nextInt();
+        System.out.print("Enter your salary: ");
+        salary = scan.nextDouble();
 
     }
 
-    public void Employee() {
+    public String toString() {
+        return  "Employee information: "+firstName+" "+lastName+", "+age+", "+salary+".";
     }
 
 }
