@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.text.DecimalFormat;;
+import java.text.DecimalFormat;
 public class Skeleton {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
